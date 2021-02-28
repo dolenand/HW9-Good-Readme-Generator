@@ -1,21 +1,37 @@
 # HW9-Good ReadME Generator
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Description of project
-  a CLI application that writes a professional readme file
+  a CLI application that writes a professional readme file. 
+
+AS A developer
+I WANT a README generator
+SO THAT can quickly create a professional README for a new project
+
   ## Table of Contents
   ["Contributing Guidlines"](#contributing-guidlines)
   ["Questions"](#questions)
   ["Install Guide"](#install-guide)
   ["Tests"](#tests)
   ["Licensing"](#licnesing)
-  ## Contributing Guidlines
-  Thanks to .
+  ["Project Demo"](Assignment%20Demo.mov)
+  
   ## Questions
   You can reach me for questions at dolenandy@gmail.com or find me on Github here dolenand.
 
   ## Install Guide
-  You can install the required dependencies with this command in the command line: npm i
+  ```
+  npm i
+  ```
+  ```
+  npm i inquierer
+  ```
+  ## CLI App Init
+  ```
+  node index.js
+  ```
   ## Tests
-  Run tests in the command line with this command: npm test.
+```
+npm test
+```
   ## Liscensing
   This project is under the MIT
