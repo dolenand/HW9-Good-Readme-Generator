@@ -13,7 +13,7 @@ SO THAT can quickly create a professional README for a new project
   ["Install Guide"](#install-guide)
   ["Tests"](#tests)
   ["Licensing"](#licnesing)
-  ["Project Demo"](Assignment%20Demo.mov)
+  ["Project Demo"]()
   
   ## Questions
   You can reach me for questions at dolenandy@gmail.com or find me on Github here dolenand.
