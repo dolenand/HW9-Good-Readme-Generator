@@ -1,4 +1,4 @@
-le//external packages declaring dependencies and variables//
+//external packages declaring dependencies and variables//
 const fs = require ("fs");
 const inquirer = require ("inquirer");
 const generatedMarkdown = require("./utils/generateMarkdown")

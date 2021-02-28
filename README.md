@@ -1,7 +1,7 @@
-# HW-9 Professional ReadMe Generator
+# HW9-Good ReadME Generator
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Description of project
-  This CLI application generates professional read.me files all from the command line 
+  a CLI application that writes a professional readme file
   ## Table of Contents
   ["Contributing Guidlines"](#contributing-guidlines)
   ["Questions"](#questions)
