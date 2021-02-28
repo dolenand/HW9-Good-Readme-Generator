@@ -1,0 +1,19 @@
+{
+  "name": "hw9-good-readme-generator",
+  "version": "1.0.0",
+  "description": "This application uses the CLI to create and render a professional Read.me file",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolenand/HW9-Good-Readme-Generator.git"
+  },
+  "author": "Andy Dolen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dolenand/HW9-Good-Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/dolenand/HW9-Good-Readme-Generator#readme"
+}
