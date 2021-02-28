@@ -1,22 +1,75 @@
-//external packages declaring dependencies and variables//
-const inquirer = require ("inquirer");
+le//external packages declaring dependencies and variables//
 const fs = require ("fs");
+const inquirer = require ("inquirer");
+const generatedMarkdown = require("./utils/generateMarkdown")
 //array of questions for the user//
-inquirer.prompt{[
-    {
-        type:"input",
-        message: "What is the title of your README",
-        name: "title"
-    },
-    {
-        type: "input",
-        message: "Please describe your Project",
-        name: "description"
-    },
-    {
-        type:"input",
-        message: "What are the steps required for installation",
-        name: "installation"
-    },
+    const questions = [
+        {
+            type: "input",
+            name: "Github",
+            message: "What is your GitHub username?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is your email address?"
+        },
+        {
+            type: "input",
+            name: "title",
+            message: "What is your project's name?"
+        },
+        {
+            type: "input",
+            name: "description",
+            message: "Please write a short description of your project"
+        },
+        {
+            type: "list",
+            name: "license",
+            message: "What kind of license should your project have?",
+            choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+        },
+        {
+            type: "input",
+            name: "installation",
+            message: "What command should be run to install dependencies?",
+            default: "npm i"
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "What command should be run to run tests?",
+            default: "npm test"
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "What does the user need to know about using the repo?",
+        },
+        {
+            type: "input",
+            name: "contributing",
+            message: "What does the user need to know about contributing to the repo?",
+        }
+    ];
 
-]}
+    // function to initialize program
+    function init() {
+        inquirer
+        .prompt(questions)
+        .then(function(response){
+            const filename = "README.md";
+            const generatedREADME =  generatedMarkdown(response)
+            fs.writeFileSync(filename, generatedMarkdown(response), function(err){
+                if (err) {
+                    return console.log(err);
+                }
+
+                console.log("README.md generated")
+            });
+        });
+    }
+
+    // function call to initialize program
+    init();

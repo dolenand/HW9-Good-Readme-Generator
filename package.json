@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dolenand/HW9-Good-Readme-Generator/issues"
   },
-  "homepage": "https://github.com/dolenand/HW9-Good-Readme-Generator#readme"
+  "homepage": "https://github.com/dolenand/HW9-Good-Readme-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
 }
