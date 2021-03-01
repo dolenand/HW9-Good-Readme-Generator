@@ -1,7 +1,7 @@
 # HW9-Good ReadME Generator
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Description of project
-  a CLI application that writes a professional readme file. 
+  a CLI application that writes a professional readme file.
 
 AS A developer
 I WANT a README generator
@@ -13,10 +13,10 @@ SO THAT can quickly create a professional README for a new project
   ["Install Guide"](#install-guide)
   ["Tests"](#tests)
   ["Licensing"](#licnesing)
-  ["Project Demo"]()
+  ["Project Demo"](https://youtu.be/2LupM2r0hpM)
   
   ## Questions
-  You can reach me for questions at dolenandy@gmail.com or find me on Github here dolenand.
+  You can reach me for questions at dolenandy@gmail.com or find me on Github here [dolenand](https://github.com/dolenand)
 
   ## Install Guide
   ```
